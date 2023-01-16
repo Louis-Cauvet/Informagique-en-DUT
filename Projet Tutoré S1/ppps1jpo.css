@@ -1,0 +1,550 @@
+body{
+    background: whitesmoke;
+    font-family: OCR A Std, sans-serif;
+    padding: 0px ;
+    margin: 0px;
+}
+
+p{
+    color: black;
+}
+
+table, tr, td, th{
+    border:1px solid;
+}
+
+
+
+
+.année{
+    font-size: 85%;
+    font-style: italic;
+}
+
+
+
+
+
+
+.formationliste{
+    display: flex;
+    justify-content: center;
+}
+
+.formationfield{
+    background:lightgrey;
+}
+
+.sitegeoliste{
+    display: flex ;
+    justify-content: space-around;
+    list-style: none;
+}
+.sitegeofield{
+    background: lightgrey;
+}
+
+
+
+
+.geo{
+    color: white;
+    border-top: solid 5px  #E15814;
+}
+
+
+.geo:hover{
+    border-top: solid 5px white;
+    background-color: #EE793F;
+}
+
+
+.navZ
+{
+    margin-top: -35px;
+}
+
+
+nav
+{
+    background-color:#E15814;
+    position: fixed;
+    padding-top: 0px;
+    margin-top: -38px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+nav ul
+{
+    display: flex;
+	margin: 0px;
+	padding: 0px;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+
+nav li
+{
+	float: left;
+    list-style-type: none;
+    
+}
+
+nav a
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 30px;
+	color: #fff;
+}
+
+#logo
+{
+    float: left;
+    width: 95px;
+    padding-top: 2px;
+    padding-left: 5px;
+    
+}
+
+#active1
+{
+    border-top: white 5px solid;
+}
+
+#active2
+{
+    border-top: white 5px solid;
+}
+
+#active3
+{
+    border-top: white 5px solid;
+}
+
+#active4
+{
+    border-top: white 5px solid;
+}
+
+#active5
+{
+    border-top: white 5px solid;
+}
+
+#active6
+{
+    border-top: white 5px solid;
+}
+
+#photoiut
+{
+    width: 40%;
+    vertical-align: middle;
+    float: right;
+    margin-left: 70px;
+}
+
+#photoiutinformatique
+{
+    width: 40%;
+    vertical-align: middle;
+    float: right;
+}
+
+#diagPoursuites
+{
+    width: 40%;
+    vertical-align: middle;
+    float: right;
+}
+
+
+h3
+{
+    color: #444343;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-bottom: 1px #444343 solid ;
+}
+
+h4
+{
+    color: #a94807;
+    font-size: 20px;
+    margin: 5vh 0;
+
+}
+
+h5
+{
+    color: #552301;
+    margin-left: 10vh;
+    font-size: 1.4vh;
+}
+
+
+#DUTinformatique
+{
+    float:right;
+}
+
+.text
+{
+    margin-bottom: 25vh;
+    font-size: 15px;
+}
+
+.text1
+{
+    margin-bottom: 15vh;
+    font-size: 15px;
+}
+
+
+.main
+{
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.contenu
+{
+    width: 54.5%;
+}
+
+.contenuRight
+{
+    width: 54.5%;
+}
+
+.button
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #636363;
+    letter-spacing: 20px;    
+}
+
+#button1
+{
+    margin-left: -15%;
+}
+
+#button2
+{
+    margin-left: -15%;
+}
+
+#button3
+{
+    margin-left: -30%;
+}
+
+#button4
+{
+    margin-left: -100%;
+}
+
+#button5
+{
+    margin-left: -100%;
+}
+
+#button6
+{
+    margin-left: -100%;
+}
+
+#button7
+{
+    margin-left: -100%;
+}
+
+#button8
+{
+    margin-left: -100%;
+}
+
+#divbutton1
+{
+    margin-bottom: 10vh;
+}
+
+.button:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#E15814;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: bottom right;
+    transform: scale(0);
+}
+
+.button:hover:before
+{
+    transition: transform 0.5s;
+    transform-origin: top left;
+    transform: scale(1);
+}
+
+.button:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 3px solid #EE793F;
+    box-sizing: border-box;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin:top left;
+    transform: scale(1);
+}
+
+.button:hover:after
+{
+    transition: transform 0.5s;
+    transform-origin: bottom right;
+    transform: scale(0);
+}
+
+
+#imgFilière1
+{
+    float: right;
+    width: 40%;
+    vertical-align: middle;
+}
+
+#imgFilière1
+{
+    float: right;
+    width: 40%;
+    vertical-align: middle;
+}
+
+ul
+{
+    margin-bottom: 8vh;
+}
+
+.liste li
+{
+    margin-bottom: 2%;
+}
+
+.listeUl 
+{
+    list-style: none;
+    margin-left: 4vh;
+    margin-bottom: -1.5vh;
+}
+
+.listeUl li::before 
+{
+    content: "•";
+    color: #b46835;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-bottom: 1.3%;
+}
+
+#liste1
+{
+    margin-left: 0;
+}
+
+#liste2
+{
+    float: right;
+    margin-right: 40vh;
+}
+
+#liste2 li
+{
+    margin-bottom: 2.65vh;
+}
+ol 
+{
+    list-style: none; 
+    counter-reset: li;
+    margin-left: 4vh;
+    margin-bottom: -1.5vh;
+}
+
+ol li::before
+{
+    content: counter(li);
+    color: #b46835;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ol li 
+{
+    counter-increment: li;
+    margin-bottom: 1.3%;
+}
+
+
+.orange
+{
+    color: #b46835;
+}
+
+.orange1
+{
+    color: #b46835;
+    text-decoration: none;
+}
+
+.grey
+{
+    color: #444343;
+}
+
+
+.bold
+{
+    font-weight: bold;
+    color: #444343;
+}
+
+.margin
+{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+#commentaires
+{
+    width: 100%;
+    height: 8vh;
+}
+
+.navEnd
+{
+    background: #E15814;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.navEnd ul
+{
+    display: flex;
+	margin: 0px;
+	padding: 0px;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+
+.navEnd li
+{
+	float: left;
+    list-style-type: none;
+    
+}
+
+.navEnd a
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 30px;
+	color: #fff;
+}
+
+.lienNavEnd:hover{
+    background-color: #EE793F;
+}
+
+.justify
+{
+    text-align: justify;
+    line-height: 200%;
+}
+
+.Gletter
+{
+    color: #444343;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+#SchemaEX
+{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10vh;
+    margin-top: -10vh;
+}
+
+#center
+{
+    text-align: center;
+}
+
+.center
+{
+    text-align: center;
+}
+.center1
+{
+    margin-left: 10vh;
+}
+
+#photoplan
+{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#photoamphi
+{
+    width: 40%;
+    vertical-align: middle;
+    float: right;
+}
+
+#photo_cafet
+{
+    width: 40%;
+    vertical-align: middle;
+    float: right;
+}
+
+#photo_biblio
+{
+    width: 40%;
+    vertical-align: middle;
+    float: right;
+}

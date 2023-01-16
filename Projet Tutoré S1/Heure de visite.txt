@@ -1,0 +1,15 @@
+<p class="liste">
+                        <label for="heure">Heure de visite</label>
+                        <select id="heure" name="heure">
+                            <option value="8h">8h00</option>
+                            <option value="9h">9h00</option>
+                            <option value="10h">10h00</option>
+                            <option value="11h">11h00</option>
+                            <option value="12h">12h00</option>
+                            <option value="13h">13h00</option>
+                            <option value="14h">14h00</option>
+                            <option value="15h">15h00</option>
+                            <option value="16h">16h00</option>
+                            <option value="17h">17h00</option>
+                            <option value="18h">18h00</option>
+                        </select>

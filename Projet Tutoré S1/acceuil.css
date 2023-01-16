@@ -1,0 +1,501 @@
+body{
+    background: whitesmoke;
+    font-family: OCR A Std, sans-serif;
+    padding: 0px ;
+    margin: 0px;
+}
+
+p{
+    color: black;
+}
+
+table, tr, td, th{
+    border:1px solid;
+}
+
+
+
+
+.année{
+    font-size: 85%;
+    font-style: italic;
+}
+
+
+
+
+
+
+.formationliste{
+    display: flex;
+    justify-content: center;
+}
+.formationfield{
+    background:lightgrey;
+}
+
+.sitegeoliste{
+    display: flex ;
+    justify-content: space-around;
+    list-style: none;
+}
+.sitegeofield{
+    background: lightgrey;
+}
+
+
+
+
+.geo{
+    color: white;
+    border-top: solid 5px  #E15814;
+}
+
+
+.geo:hover{
+    border-top: solid 5px white;
+    background-color: #EE793F;
+}
+
+
+
+.lien{
+    color: rgb(255, 75, 0);
+    text-decoration: none;
+}
+
+.lien:visited{
+    color: rgb(255, 75, 0);
+}
+
+.lien:hover
+{
+    color: #686868;
+    text-decoration: none;
+}
+
+nav
+{
+    background: transparent;
+    position: fixed;
+    transition: all 0.3s ease-out;
+    padding-top: 0px;
+    width: 100%;
+}
+
+.anime-nav
+{
+    width: 100%;
+    background-color:#E15814;
+    padding-top: 0px;
+    z-index: 1;
+}
+
+nav ul
+{
+    display: flex;
+	margin: 0px;
+	padding: 0px;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+
+nav li
+{
+	float: left;
+    list-style-type: none;
+    
+}
+
+nav a
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 30px;
+	color: #fff;
+}
+
+#logo
+{
+    float: left;
+    width: 95px;
+    padding-top: 2px;
+    padding-left: 5px;
+    
+}
+
+#active1
+{
+    border-top: white 5px solid;
+}
+
+
+
+#casevide{
+    border:none;
+}
+
+#divAccueil
+{
+    margin-top: 0px;
+    height: 1200px;
+    background-image: url(pexels-cottonbro-5473298.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#titreaccueil
+{
+    padding: 250px;
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+#button
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 20px;    
+}
+
+#button:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#E15814;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: bottom right;
+    transform: scale(0);
+}
+
+#button:hover:before
+{
+    transition: transform 0.5s;
+    transform-origin: top left;
+    transform: scale(1);
+}
+
+#button:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 3px solid white;
+    box-sizing: border-box;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin:top left;
+    transform: scale(1);
+}
+
+#button:hover:after
+{
+    transition: transform 0.5s;
+    transform-origin: bottom right;
+    transform: scale(0);
+}
+
+.buttonDUT
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #444343;
+    letter-spacing: 20px;    
+}
+
+#button1
+{
+    margin-left: -23%;
+    margin-right: 25%;
+}
+
+#button2
+{
+    margin-left: -23%;
+    margin-right: 30%;
+}
+
+#button3
+{
+    margin-left: -3%;
+}
+
+.buttonDUT:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#E15814;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: bottom right;
+    transform: scale(0);
+}
+
+.buttonDUT:hover:before
+{
+    transition: transform 0.5s;
+    transform-origin: top left;
+    transform: scale(1);
+}
+
+.buttonDUT:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 3px solid #EE793F;
+    box-sizing: border-box;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin:top left;
+    transform: scale(1);
+}
+
+.buttonDUT:hover:after
+{
+    transition: transform 0.5s;
+    transform-origin: bottom right;
+    transform: scale(0);
+}
+
+#divAccueil
+{
+    align-items: center;
+    margin-top: -40px;
+}
+
+
+#presentation
+{
+    background-color: whitesmoke;
+    margin-top: 5%;
+    padding-left: 70px;
+    padding-top: 70px;
+    padding-bottom:70px;
+    display: block;
+    
+}
+
+#informatique
+{
+    
+    display: block;
+    margin-top: 15%;
+    padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom:70px;
+}
+
+#autreIUT
+{
+    margin-top: 10%;
+    padding-right: 70px;
+    padding-bottom:70px;
+    display: block;
+}
+
+#photoiut
+{
+    width: 40%;
+    vertical-align: middle;
+    float: right;
+}
+
+
+
+h3
+{
+    color: #444343;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-bottom: 1px #444343 solid ;
+}
+
+#DUTinformatique
+{
+    float:right;
+}
+
+.container
+{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10vh 0;
+    transform-style: preserve-3d;
+}
+
+.container .box
+{
+    position: relative;
+    width: 450px;
+    height: 300px;
+    margin: 60px 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #000;
+    transform-style: preserve-3d;
+}
+
+.container .box:hover
+{
+    box-shadow: 0 50px 80px rgba(0, 0, 0,.2);
+}
+
+.container .box .imgBx
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+}
+
+.container .box .contentBx
+{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    right: 50px;
+    background: #fff;
+    transform: translateZ(20px) scaleY(0);
+    padding: 40px 25px;
+    transform-origin: top;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+}
+
+.container .box:hover .contentBx
+{
+    transform: translateX(200px) scaleY(1);
+}
+
+#autresite
+{
+    text-align: center;
+    color: #444343;
+    font-size: 30px;
+    border-bottom: 1px #444343 solid ;
+    padding-bottom: 20px ;
+    width: 100%;
+}
+
+
+#ak
+{
+    margin-left: 10vh;
+    text-align: center;
+}
+
+#imgautreIUT
+{
+    margin-left:-70px;
+}
+
+
+.lienDut
+{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.navEnd
+{
+    background: #E15814;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.navEnd ul
+{
+    display: flex;
+	margin: 0px;
+	padding: 0px;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+
+.navEnd li
+{
+	float: left;
+    list-style-type: none;
+    
+}
+
+.navEnd a
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 30px;
+	color: #fff;
+}
+
+
+
+.lienNavEnd:hover{
+    background-color: #EE793F;
+}
+
+.text
+{
+    width: 54.5%;
+}
+
+.listeUl 
+{
+    list-style: none;
+    margin-left: 4vh;
+    margin-bottom: -1.5vh;
+}
+
+.listeUl li::before 
+{
+    content: "•";
+    color: #b46835;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    margin-bottom: 1.3%;
+}

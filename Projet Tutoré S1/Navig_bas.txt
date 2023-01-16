@@ -1,0 +1,8 @@
+<div class="navEnd">
+    <ul>
+        <li><a class="lienNavEnd" href="Contact.html">Coordonnées et contact</a></li>
+        <li><a class="lienNavEnd" href="Plan.html">Localisation de l'IUT (plans)</a></li>
+        <li><a class="lienNavEnd" href="Mentions_légales.html">Mentions légales</a></li>
+        <li><a class="lienNavEnd" href="http://grp-311.iq.iut21.u-bourgogne.fr/Jpo/confidentialit%C3%A9.html">Charte de confidentialité</a></li>
+    </ul>
+</div>
