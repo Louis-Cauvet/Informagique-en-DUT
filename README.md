@@ -23,7 +23,7 @@ Ce projet, loin d'être révolutionnaire sur les plans technique et créatif, no
 
 Sur le plan personnel, cela m'a aussi permis de découvrir le rôle de chef de projet, qui nécessite organisation et communication afin d'établir efficacement la répartition des tâches ainsi qu'un suivi permanent de l'avancée de chaque collaborateur, ce qui s'avère loin d'être évident lorsque l'on est novice.
 
-### Images du projet 📷
+### Quelques images du projet 📷
 ![image du projet 1](https://github.com/Louis-Cauvet/Informagique_en_DUT/blob/main/Images/Capture1.PNG)
 </br></br>
 ![image du projet 2](https://github.com/Louis-Cauvet/Informagique_en_DUT/blob/main/Images/Capture2.PNG)
