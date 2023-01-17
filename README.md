@@ -17,3 +17,6 @@ Site vitrine réalisé en **HTML/CSS**, avec l'ajout d'animations en **Javascrip
 - Theo Clere
 - Clement Ehinger
 - Louis Cauvet (Chef de projet)
+
+### Retour personnel
+Ce projet, loin d'être révolutionnaire sur le plan technique, nous a cependant permis de développer un site vitrine fonctionnel tel que pourrait le demander un client (ordonner ses informations par rubrique, circuler d'une page à l'autre, interragir avec une base de données...) et a donc constitué une base dans la découverte et la compréhension du web pour moi. </br> Sur le plan personnel, cela m'a aussi permis de découvrir le rôle de chef de projet, qui nécessite organisation et communication afin d'établir efficacement la répartition des tâches ainsi qu'un suivi permanent de l'avancée de chaque collaborateur, ce qui s'avère loin d'être évident lorsque l'on est novice.
